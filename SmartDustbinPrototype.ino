@@ -1,5 +1,5 @@
-#include <Servo.h>                 //Includes Servo library//
-int trigPin = 9;                   //Sets digital pin 9 as the Sensor's trigger pin//
+#include <Servo.h>                           //Includes Servo library//
+int trigPin = 9;                             //Sets digital pin 9 as the Sensor's trigger pin//
 int echoPin = 7;                             //Sets disital pin 7 as the Sensor's echo pin//
 float distance, duration;                    //Declares variables//
 Servo servo1;
